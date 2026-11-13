@@ -1,0 +1,15 @@
+# Your data stays on your machine, never in GitHub
+data/
+*.db
+*.sqlite3
+
+# Secrets
+.env
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+*.egg-info/
